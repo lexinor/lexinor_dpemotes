@@ -1,6 +1,5 @@
-fx_version 'adamant'
-
-game 'gta5'
+fx_version "cerulean"
+game "gta5"
 
 client_scripts {
 	'NativeUI.lua',
@@ -9,8 +8,7 @@ client_scripts {
 }
 
 server_scripts {
-	'Config.lua',
-	'@mysql-async/lib/MySQL.lua',
-	'Server/*.lua'
+	"@oxmysql/lib/MySQL.lua",
+	"Config.lua",
+	"Server/*.lua"
 }
-server_scripts { '@mysql-async/lib/MySQL.lua' }
